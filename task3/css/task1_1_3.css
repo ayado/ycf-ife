@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container{
+	background:#EEE;
+	/*overflow:auto;*/
+	border:1px solid #000000;
+	padding:20px;
+	}
+.container:after {
+  content:"";
+  display:table;
+  clear:both;
+    }	
+.item{
+	padding:20px;
+	background:#FFF;
+	border:1px solid #000000;
+	}
+.left{
+	float:left;
+	width:200px;
+	position:relative;
+	box-sizing:border-box;
+	}
+.teamname{
+	position:absolute;
+	top:20px;
+	right:20px;
+	}
+.right{
+	float:right;
+	width:120px;
+	box-sizing:border-box;
+	}
+.middle{
+	margin-left:220px;
+	margin-right:140px;
+	}
+#logo{
+	width:80px;
+	height:80px;
+	}
+.logopad{
+	padding-top:20px;
+	}
+.middle p{
+	text-indent:2em;
+	line-height:2em;
+	
+	}
