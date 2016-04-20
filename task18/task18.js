@@ -6,7 +6,7 @@ var list=[];
 function renderchart(){
 	var str="";
 	for(var i=0;i<list.length;i++){
-		str+="<div class='listitem'>"+"<span id='"+i+"' onclick='deleteitem(this)'>"+list[i]+"</span></div>";
+		str+="<div class='listitem'>"+"<span id='"+i+"'onclick='deleteitem(this)'>"+list[i]+"</span></div>";
 		}
 	numlist.innerHTML=str;
 	}
